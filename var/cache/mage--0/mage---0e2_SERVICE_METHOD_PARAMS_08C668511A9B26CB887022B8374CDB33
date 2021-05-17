@@ -1,2 +1,2 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1620848959;s:6:"expire";i:9999999999;s:4:"tags";s:38:"0e2_REFLECTION,0e2_REFLECTION,0e2_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1621288279;s:6:"expire";i:9999999999;s:4:"tags";s:38:"0e2_REFLECTION,0e2_REFLECTION,0e2_MAGE";}
 [{"name":"option","type":"Magento\\Catalog\\Api\\Data\\ProductCustomOptionInterface","isDefaultValueAvailable":false,"defaultValue":null}]

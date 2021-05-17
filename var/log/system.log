@@ -706,3 +706,74 @@
 [2021-05-12 19:45:03] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
 [2021-05-12 19:45:20] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
 [2021-05-12 19:45:20] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 20:47:03] main.ERROR: Attribute "name" is required for module node.
+#0 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Declaration/Converter/Dom.php(36): Magento\Framework\Module\Declaration\Converter\Dom->_readModules()
+#1 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/ModuleList/Loader.php(96): Magento\Framework\Module\Declaration\Converter\Dom->convert()
+#2 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(187): Magento\Framework\Module\ModuleList\Loader->load()
+#3 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(167): Magento\Framework\Module\Status->getAllModules()
+#4 /var/www/magento242.loc/public_html/setup/src/Magento/Setup/Console/Command/AbstractModuleManageCommand.php(84): Magento\Framework\Module\Status->getModulesToChange()
+#5 /var/www/magento242.loc/public_html/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\AbstractModuleManageCommand->execute()
+#6 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(1009): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento242.loc/public_html/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento242.loc/public_html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2021-05-17 20:47:16] main.ERROR: Attribute "name" is required for module node.
+#0 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Declaration/Converter/Dom.php(36): Magento\Framework\Module\Declaration\Converter\Dom->_readModules()
+#1 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/ModuleList/Loader.php(96): Magento\Framework\Module\Declaration\Converter\Dom->convert()
+#2 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(187): Magento\Framework\Module\ModuleList\Loader->load()
+#3 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(167): Magento\Framework\Module\Status->getAllModules()
+#4 /var/www/magento242.loc/public_html/setup/src/Magento/Setup/Console/Command/AbstractModuleManageCommand.php(84): Magento\Framework\Module\Status->getModulesToChange()
+#5 /var/www/magento242.loc/public_html/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\AbstractModuleManageCommand->execute()
+#6 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(1009): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento242.loc/public_html/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento242.loc/public_html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2021-05-17 20:47:21] main.ERROR: Attribute "name" is required for module node.
+#0 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Declaration/Converter/Dom.php(36): Magento\Framework\Module\Declaration\Converter\Dom->_readModules()
+#1 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/ModuleList/Loader.php(96): Magento\Framework\Module\Declaration\Converter\Dom->convert()
+#2 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(187): Magento\Framework\Module\ModuleList\Loader->load()
+#3 /var/www/magento242.loc/public_html/vendor/magento/framework/Module/Status.php(167): Magento\Framework\Module\Status->getAllModules()
+#4 /var/www/magento242.loc/public_html/setup/src/Magento/Setup/Console/Command/AbstractModuleManageCommand.php(84): Magento\Framework\Module\Status->getModulesToChange()
+#5 /var/www/magento242.loc/public_html/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\AbstractModuleManageCommand->execute()
+#6 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(1009): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento242.loc/public_html/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento242.loc/public_html/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento242.loc/public_html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:26:00] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:26:38] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:26:38] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:26:47] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:26:47] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:28:28] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:28:28] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:30:13] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:30:13] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:39:23] main.ERROR: Missing required argument $manager of Training\TestOM\Model\Test. [] []
+[2021-05-17 21:40:45] main.ERROR: Invalid return type [] []
+[2021-05-17 21:42:18] main.ERROR: Invalid return type [] []
+[2021-05-17 21:42:38] main.ERROR: Invalid return type [] []
+[2021-05-17 21:44:03] main.ERROR: Invalid return type [] []
+[2021-05-17 21:49:39] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:49:39] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:49:39] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:49:39] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:49:39] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:50:13] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:50:13] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:50:13] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-05-17 21:50:13] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-05-17 21:50:13] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-05-17 21:50:58] main.CRITICAL: Type Error occurred when creating object: Training\TestOM\Controller\Index\Index\Interceptor, Argument 1 passed to Training\TestOM\Controller\Index\Index::__construct() must be an instance of Training\TestOM\Model\Test, instance of Magento\Framework\App\Action\Context given, called in /var/www/magento242.loc/public_html/generated/code/Training/TestOM/Controller/Index/Index/Interceptor.php on line 14 [] []
+[2021-05-17 21:50:58] main.ERROR: Type Error occurred when creating object: Training\TestOM\Controller\Index\Index\Interceptor, Argument 1 passed to Training\TestOM\Controller\Index\Index::__construct() must be an instance of Training\TestOM\Model\Test, instance of Magento\Framework\App\Action\Context given, called in /var/www/magento242.loc/public_html/generated/code/Training/TestOM/Controller/Index/Index/Interceptor.php on line 14 [] []
